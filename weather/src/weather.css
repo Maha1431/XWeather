@@ -23,13 +23,13 @@
     border: 1px solid #fff;
 }
 
-.weather-card{
+.weather-cards{
     display: flex;
     align-items: center;
    justify-content: center;
 
 }
-.weather-cards{
+.weather-card{
     margin: 10px;
     padding: 10px;
     border: 1px solid #fff;
