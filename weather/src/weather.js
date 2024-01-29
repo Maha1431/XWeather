@@ -56,19 +56,19 @@ function Weather() {
 
        {weatherData && (
         <div className="details">
-          <div className="weather-card">
+          <div className="weather-cards">
             <p>Temperature </p>
             <p>{weatherData.current.temp_c}°C</p>
           </div>
-          <div className="weather-card">
+          <div className="weather-cards">
             <p>Humidity</p>
             <p>{weatherData.current.humidity}%</p>
           </div>
-          <div className="weather-card">
+          <div className="weather-cards">
             <p>Condition</p>
             <p>{weatherData.current.condition.text}</p>
           </div>
-          <div className="weather-card">
+          <div className="weather-cards">
             <p>Wind Speed</p>
             <p> {weatherData.current.wind_kph}km/h</p>
           </div>
