@@ -55,7 +55,7 @@ function Weather() {
       {loading && <p>Loading data...</p>}
 
        {weatherData && (
-        <div className="details">
+        <div className="weather-card">
           <div className="weather-cards">
             <p>Temperature </p>
             <p>{weatherData.current.temp_c}°C</p>

@@ -23,7 +23,7 @@
     border: 1px solid #fff;
 }
 
-.details{
+.weather-card{
     display: flex;
     align-items: center;
    justify-content: center;
